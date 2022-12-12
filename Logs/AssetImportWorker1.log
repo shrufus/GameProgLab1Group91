@@ -1,0 +1,823 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editors\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Repository/University/GameProgLab1Group91/GameProgLab1Group91
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+19446
+Successfully changed project path to: D:/Repository/University/GameProgLab1Group91/GameProgLab1Group91
+D:/Repository/University/GameProgLab1Group91/GameProgLab1Group91
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11804] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1119786135 [EditorId] 1119786135 [Version] 1048832 [Id] WindowsEditor(7,Amadeus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11804] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1119786135 [EditorId] 1119786135 [Version] 1048832 [Id] WindowsEditor(7,Amadeus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 112.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path D:/Unity Editors/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Repository/University/GameProgLab1Group91/GameProgLab1Group91/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24348 MB
+    Driver:   31.0.15.2206
+Initialize mono
+Mono path[0] = 'D:/Unity Editors/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editors/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editors/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001411 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 120.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.558 seconds
+Domain Reload Profiling:
+	ReloadAssembly (559ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005695 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repository\University\GameProgLab1Group91\GameProgLab1Group91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repository\University\GameProgLab1Group91\GameProgLab1Group91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5514 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.9 MB). Loaded Objects now: 5965.
+Memory consumption went from 221.1 MB to 220.2 MB.
+Total: 4.651600 ms (FindLiveObjects: 0.584600 ms CreateObjectMapping: 0.160100 ms MarkObjects: 3.484000 ms  DeleteObjects: 0.421400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12495.344636 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete3.png
+  artifactKey: Guid(9105de175c8dbcb43b4ce3c19a98e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete3.png using Guid(9105de175c8dbcb43b4ce3c19a98e709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9061cad6b2f34000fec4371cc12d7607') in 0.363688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass18.png
+  artifactKey: Guid(0bbe86a9a2af7f34786a0cb314c4f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass18.png using Guid(0bbe86a9a2af7f34786a0cb314c4f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df9c7686b209bf60a0b549aa2d7e8ce') in 0.025400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass71.png
+  artifactKey: Guid(9da9a196edf77b945bc617c4674cb0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass71.png using Guid(9da9a196edf77b945bc617c4674cb0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd553357620450771c1193f7abd3af3de') in 0.013272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass76.png
+  artifactKey: Guid(89084a3590b860845a3c614a0cffe298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass76.png using Guid(89084a3590b860845a3c614a0cffe298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4397cfcceecfb1323a92f5ca86eff5ad') in 0.016034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete7.png
+  artifactKey: Guid(4feea251c686d6446b2de2fda787ca1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete7.png using Guid(4feea251c686d6446b2de2fda787ca1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4949db4d15551bba059c0f93d2640282') in 0.008666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope12.png
+  artifactKey: Guid(20122472361e8714aa1bbcd9ccbd6124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope12.png using Guid(20122472361e8714aa1bbcd9ccbd6124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aa3a9f9e12772482b585d48332db7c') in 0.010269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass14.png
+  artifactKey: Guid(9e024c273063aff46a21c7bbf973e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass14.png using Guid(9e024c273063aff46a21c7bbf973e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86b09df232e2952dee1aa2b0c212e8f') in 0.025554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass101.png
+  artifactKey: Guid(0f79b77c0c766fe4fa2a0bc332573ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass101.png using Guid(0f79b77c0c766fe4fa2a0bc332573ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caff9bfdfec7fd4451ef83a2935caeea') in 0.008798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass37.png
+  artifactKey: Guid(77202baf241783e47af17549291f62e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass37.png using Guid(77202baf241783e47af17549291f62e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e28852f073967a4062197441c46aba') in 0.013641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete11.png
+  artifactKey: Guid(28ddd5d1c8be34e48bdf2d37e3e182f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete11.png using Guid(28ddd5d1c8be34e48bdf2d37e3e182f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a660243f1bac9121b9c062cb75d83b') in 0.027949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass98.png
+  artifactKey: Guid(d3f08ac3a6ec7714e9e7b4c918285d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass98.png using Guid(d3f08ac3a6ec7714e9e7b4c918285d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eade935cdf56a00b0c5646390462acb') in 0.010229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass72.png
+  artifactKey: Guid(56cf293d9366a9144aea534feebe1494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass72.png using Guid(56cf293d9366a9144aea534feebe1494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2602761ff13841e4d0e6e16c731077') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass85.png
+  artifactKey: Guid(0b585b011dde44644bf1c420dbb6f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass85.png using Guid(0b585b011dde44644bf1c420dbb6f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53ef3df956cc9958aaf4a92fbeb4efd') in 0.030088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete5.png
+  artifactKey: Guid(61d8261103e075c47ba469e720fbe959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete5.png using Guid(61d8261103e075c47ba469e720fbe959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a938caa3ac46f5eb76825a811849707f') in 0.010696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass82.png
+  artifactKey: Guid(dfaf374034107d844aa8070265b3f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass82.png using Guid(dfaf374034107d844aa8070265b3f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e04793c5a2aa590e0cdfbace8f42dca') in 0.012106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass97.png
+  artifactKey: Guid(ac4fe5955ed152b4f90bdfdd8c2bccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass97.png using Guid(ac4fe5955ed152b4f90bdfdd8c2bccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f94fe2308d719de29fed0fc444c817') in 0.010377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass57.png
+  artifactKey: Guid(97e59a73dcc1a34429ce984018ead5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass57.png using Guid(97e59a73dcc1a34429ce984018ead5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c23cec1c8472e70aeaf86cdf710c36') in 0.034249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope2.png
+  artifactKey: Guid(e07d82bec1efc554c82f666ed2c1a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope2.png using Guid(e07d82bec1efc554c82f666ed2c1a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eeb8b0032963fb5ecf0b988849489f') in 0.020488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete14.png
+  artifactKey: Guid(fff2e18785f40e34b8b23fd6f83bf117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete14.png using Guid(fff2e18785f40e34b8b23fd6f83bf117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd5aae509c3cda1f9331504069cc25a') in 0.046795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass3.png
+  artifactKey: Guid(f95b8a41c4d51bf4eb3ef3abef83d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass3.png using Guid(f95b8a41c4d51bf4eb3ef3abef83d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a5a795ee49a241b3001c6589e0a77c') in 0.045015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass23.png
+  artifactKey: Guid(339602e37f8384a48b3c553d2ca9594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass23.png using Guid(339602e37f8384a48b3c553d2ca9594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb88df593f28f1ea4404b2cc1f5e79') in 0.008804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope10.png
+  artifactKey: Guid(bc9df1d29c9e2c34680d27b48de24c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope10.png using Guid(bc9df1d29c9e2c34680d27b48de24c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88452b9ff715011b89d226751374e52e') in 0.014018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass79.png
+  artifactKey: Guid(7bdc105a08fa4cd4992364e9611d0c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass79.png using Guid(7bdc105a08fa4cd4992364e9611d0c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a0bafcfee1ec806a556c9350368162') in 0.029962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete8.png
+  artifactKey: Guid(fa7d5a2aeca319e48bb329340debcb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete8.png using Guid(fa7d5a2aeca319e48bb329340debcb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615abefa3164c0ded1ac08d4b50b263a') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope8.png
+  artifactKey: Guid(4c02fa3a01bf75e4587e960dcd527f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope8.png using Guid(4c02fa3a01bf75e4587e960dcd527f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc458f2306360adc7b2db6b0b917b2d') in 0.044504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass67.png
+  artifactKey: Guid(536d981da51680049b9f1f8c8012cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass67.png using Guid(536d981da51680049b9f1f8c8012cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324d02939e27c3ca08fa31f74dde4831') in 0.094804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass73.png
+  artifactKey: Guid(a84a951e83425954a97e0c06f7768937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass73.png using Guid(a84a951e83425954a97e0c06f7768937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404294ecad3083ec85569ddf4a1d9a29') in 0.385738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass49.png
+  artifactKey: Guid(b88887e2a498b754da7c353a3f3bc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass49.png using Guid(b88887e2a498b754da7c353a3f3bc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663141a74fb19dab546f62a06f53289') in 0.036746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass9.png
+  artifactKey: Guid(85bccd9510469da4985e15c5d5cfd2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass9.png using Guid(85bccd9510469da4985e15c5d5cfd2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0353a418f38e5412308afa98373225') in 0.017871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass94.png
+  artifactKey: Guid(f04c713ccc634ad419f03f852c7cf3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass94.png using Guid(f04c713ccc634ad419f03f852c7cf3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f521a6332c4f38f94627ef80015e38') in 0.012721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass41.png
+  artifactKey: Guid(9dbb2b0b6c776144a97840fff6433e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass41.png using Guid(9dbb2b0b6c776144a97840fff6433e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b01e41c4ac0d0cf07417dc3749dfa16') in 0.023210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass55.png
+  artifactKey: Guid(141763a1d2b8f6f459d974265410c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass55.png using Guid(141763a1d2b8f6f459d974265410c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c905318fed49969a3409b4e7143a701') in 0.020470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass30.png
+  artifactKey: Guid(6a854986055b2dc40bab1152be3711dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass30.png using Guid(6a854986055b2dc40bab1152be3711dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b062893cf40c926401a789bebf5ca447') in 0.009799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass15.png
+  artifactKey: Guid(c5d0497ef889daa4abcc40253425f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass15.png using Guid(c5d0497ef889daa4abcc40253425f624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa0582b43bf517e23d299d846e93ca4') in 0.011762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass38.png
+  artifactKey: Guid(9e16794370230f54993215a8e252748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass38.png using Guid(9e16794370230f54993215a8e252748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab0c051fc450ffe27cd10b3aea97785') in 0.060354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass66.png
+  artifactKey: Guid(81b243fb5f7ce914fa91e94e591f1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass66.png using Guid(81b243fb5f7ce914fa91e94e591f1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb9c6e407f3f4285aa15fbd5ae074b6') in 0.012734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass90.png
+  artifactKey: Guid(4411b40aa477b5e43a88bf3919b65198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass90.png using Guid(4411b40aa477b5e43a88bf3919b65198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe416d13540988c01f14882dda660de') in 0.048525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass33.png
+  artifactKey: Guid(01c0c19137387ca41b31253c04442fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass33.png using Guid(01c0c19137387ca41b31253c04442fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269f67c4c6811c57a6f51cc7da686f50') in 0.034431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope4.png
+  artifactKey: Guid(e2ea91e4f062ce54f9507a5ddf92eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope4.png using Guid(e2ea91e4f062ce54f9507a5ddf92eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317304f5e28d4fc3aa7c79eb052f5ee') in 0.010640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass80.png
+  artifactKey: Guid(8d92cfe37fdb4b640a349b930d3ea42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass80.png using Guid(8d92cfe37fdb4b640a349b930d3ea42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ff6ef0b3cded686a74778a34f4897') in 0.060408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete6.png
+  artifactKey: Guid(5933b30914d1a5844b310ab29034755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete6.png using Guid(5933b30914d1a5844b310ab29034755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed56ec7579f308c5a69b3f0dc536f2e') in 0.027806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass89.png
+  artifactKey: Guid(305837d185f849c4d98152d09b00446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass89.png using Guid(305837d185f849c4d98152d09b00446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f594c9ca4ef1dbf716c29c6b3f8bafe') in 0.052521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass11.png
+  artifactKey: Guid(0d20e5aec6c6dd24a8d41da9cb9bb65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass11.png using Guid(0d20e5aec6c6dd24a8d41da9cb9bb65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd890f0ed883a26d9cdffaae158bb204a') in 0.046233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass42.png
+  artifactKey: Guid(e14f445b7c45b3b4989614e848339d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass42.png using Guid(e14f445b7c45b3b4989614e848339d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674dbd5b4546b4685cd6e81f7178b94a') in 0.029411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass47.png
+  artifactKey: Guid(de037ec931caddf43b5d679d7a125fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass47.png using Guid(de037ec931caddf43b5d679d7a125fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e88015486eeb2b74d2b4232c853f7be') in 0.029220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass56.png
+  artifactKey: Guid(fc3fbe25074822546a2c97a7097cb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass56.png using Guid(fc3fbe25074822546a2c97a7097cb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd021d8a00ace733be673a089d93ddaa') in 0.015222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass25.png
+  artifactKey: Guid(b3f976be5a9924a41bb98f0c68857039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass25.png using Guid(b3f976be5a9924a41bb98f0c68857039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3b31fd0f1d796241d20ae5087879bd') in 0.013471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass31.png
+  artifactKey: Guid(ad4b60879365fd042b48325700f7da14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass31.png using Guid(ad4b60879365fd042b48325700f7da14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc15e76679b5658b53163a661a405b0e') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass83.png
+  artifactKey: Guid(664b946d89258364f9b85241319fa7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass83.png using Guid(664b946d89258364f9b85241319fa7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686e1e29ce7c8663eae3a9db2f3ac5ff') in 0.034049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete10.png
+  artifactKey: Guid(7798dfd073d0c324e9129408d130724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/Concrete10.png using Guid(7798dfd073d0c324e9129408d130724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0413f6e94b1b9483cb21ca5ab658ee6b') in 0.075905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass50.png
+  artifactKey: Guid(12d4182e0c903a14b9872b5c0a3a577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass50.png using Guid(12d4182e0c903a14b9872b5c0a3a577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ce08290b353afd6b43176f962c835d') in 0.040816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass16.png
+  artifactKey: Guid(3c9279fc41e60b7419a053c9aa59bda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass16.png using Guid(3c9279fc41e60b7419a053c9aa59bda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec3fb070290a248880ce70d57d68a2d') in 0.052229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass4.png
+  artifactKey: Guid(8c7ae443fdaf0574b9a001a94bdb3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass4.png using Guid(8c7ae443fdaf0574b9a001a94bdb3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e499087f6c57c12c25aad58d38e3cf4e') in 0.039528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass24.png
+  artifactKey: Guid(d32e0547a8b3a9f4f99806a6b556b274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass24.png using Guid(d32e0547a8b3a9f4f99806a6b556b274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ec92157ed1992d1e3571a7777cd649') in 0.011676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass44.png
+  artifactKey: Guid(de6e725d156a4304aa58131d8dfdd6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass44.png using Guid(de6e725d156a4304aa58131d8dfdd6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6767d85381d7ab01343c2dacf1a92445') in 0.046484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope14.png
+  artifactKey: Guid(f9fc713847453f147b2f3784d89bfb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope14.png using Guid(f9fc713847453f147b2f3784d89bfb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da274a4b4ae5c2c74723fb214847957') in 0.017484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass99.png
+  artifactKey: Guid(97ade0f922d67e34d8105b95cba7fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass99.png using Guid(97ade0f922d67e34d8105b95cba7fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6cd372e6f51f3d497f4016d3ec147b') in 0.010973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope9.png
+  artifactKey: Guid(d8ccb61f8734c184aa2a54a27e66e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope9.png using Guid(d8ccb61f8734c184aa2a54a27e66e496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53901358b75694e5a05d0e4a52d19c') in 0.038235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass106.png
+  artifactKey: Guid(ca3b3ba171b617649a55b33d632faea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass106.png using Guid(ca3b3ba171b617649a55b33d632faea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6b0a425927fcb490f70f49a621778b') in 0.038925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass5.png
+  artifactKey: Guid(71b17ca2ce62ef747ab0d40d7fb53ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass5.png using Guid(71b17ca2ce62ef747ab0d40d7fb53ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c9cb8363fb4ac89943c6029b8be1a7') in 0.026262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass103.png
+  artifactKey: Guid(ba8de87064d1ae044be81c062a7c7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass103.png using Guid(ba8de87064d1ae044be81c062a7c7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fc1e6338bcaed74169ba5ce8c5aeb9') in 0.041737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass100.png
+  artifactKey: Guid(e26ac24a63f02d143b2a4e91bb352f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass100.png using Guid(e26ac24a63f02d143b2a4e91bb352f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229581b8ac1d4648cf229a89656ecd97') in 0.010110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope7.png
+  artifactKey: Guid(7af15b1dd4da91a409a802b373618a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlope7.png using Guid(7af15b1dd4da91a409a802b373618a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19df67e41a7b0c02e53862082b131ae5') in 0.033190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass52.png
+  artifactKey: Guid(eba2033976f65e1478937f9e871f62b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass52.png using Guid(eba2033976f65e1478937f9e871f62b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d0692ad7448bd1a9634ce7aaf5f6d8') in 0.046622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.447741 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass110.png
+  artifactKey: Guid(8e6f53c1267235246b4e82beb9dfbbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass110.png using Guid(8e6f53c1267235246b4e82beb9dfbbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbac34258a7f1afede4a7212649d637') in 0.012476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass113.png
+  artifactKey: Guid(97487c966b3183c4f95f09ea56d7e2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass113.png using Guid(97487c966b3183c4f95f09ea56d7e2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2ee906ea62f9c7da41240fb214ce82') in 0.010462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.323125 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass117.png
+  artifactKey: Guid(92038f1c696c95f43aeb0469757a243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass117.png using Guid(92038f1c696c95f43aeb0469757a243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b9071e3aa7e793cd296bec01a27562') in 0.010902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass124.png
+  artifactKey: Guid(9073e33ee7e3b294cbe619380cc67082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass124.png using Guid(9073e33ee7e3b294cbe619380cc67082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c597db5a3ee7016774f3564edee3dd') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass122.png
+  artifactKey: Guid(b8e9743f9219e2448bace637e998f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass122.png using Guid(b8e9743f9219e2448bace637e998f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec71a12965940c52333e6ea88913b902') in 0.010475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass130.png
+  artifactKey: Guid(65a68ca912de85646bf728d0d8ade79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass130.png using Guid(65a68ca912de85646bf728d0d8ade79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c0963544036785d1ba14e5667fdcbe') in 0.012009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.511103 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass139.png
+  artifactKey: Guid(9ce8ed298c31eb24e8ff3414926c35d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass139.png using Guid(9ce8ed298c31eb24e8ff3414926c35d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9df43874e804bfbe21bea3369c8a04d') in 0.009963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass146.png
+  artifactKey: Guid(ab97f527ccafd6a47953734b32608027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass146.png using Guid(ab97f527ccafd6a47953734b32608027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66d8b56a5bc44e5bba15626a6d4e0fd') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass149.png
+  artifactKey: Guid(385cc2f178719804b86836208c420808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteSlopeWithGrass149.png using Guid(385cc2f178719804b86836208c420808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd978c1315c795b6f0685c69009e87a') in 0.013074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass12.png
+  artifactKey: Guid(752b5e9ce42082d46a2916880656ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass12.png using Guid(752b5e9ce42082d46a2916880656ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3300b82a78d2f30cb9bd5b118e99e9') in 0.010693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass11.png
+  artifactKey: Guid(34280535a06c6934db62b1dc72ebb69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass11.png using Guid(34280535a06c6934db62b1dc72ebb69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe6f6c2303500f61ae58a4dc847907f') in 0.011623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass15.png
+  artifactKey: Guid(a8ce52f0105acf84ea26317a9ead72ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteStairsWithGrass15.png using Guid(a8ce52f0105acf84ea26317a9ead72ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc0dfe55090c0266841c26265b22815') in 0.011693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.970600 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass8.png
+  artifactKey: Guid(39815ef7753512e468822b172b3f2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass8.png using Guid(39815ef7753512e468822b172b3f2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6e32b5ee895e4b89715741b0f7e0d3') in 0.011452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass22.png
+  artifactKey: Guid(15e4725b88f7ca2499a456b7acecd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass22.png using Guid(15e4725b88f7ca2499a456b7acecd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91edaa31117a556ae6214996617d9683') in 0.013218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass20.png
+  artifactKey: Guid(1c49f9341235b1b409df452485d7dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass20.png using Guid(1c49f9341235b1b409df452485d7dedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db88cd205cdeda09c8635bfb049e91b') in 0.011958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass24.png
+  artifactKey: Guid(3b803e2c26ec48644bdb83446681864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass24.png using Guid(3b803e2c26ec48644bdb83446681864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2396067e6c86f4dad489735f7a4f49f4') in 0.009492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.634698 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass30.png
+  artifactKey: Guid(c38f03808d6ef30498ba2ef91ae543f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass30.png using Guid(c38f03808d6ef30498ba2ef91ae543f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a80cc1cf3d7ae7e3fc51c169e5c7511') in 0.011610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass38.png
+  artifactKey: Guid(ad61923671ea0e948ae4464a3e4e1775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass38.png using Guid(ad61923671ea0e948ae4464a3e4e1775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e09eee63e515dbcd591b1be3d7b511') in 0.009401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass44.png
+  artifactKey: Guid(f5d787a75a63a61469050e10fada8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass44.png using Guid(f5d787a75a63a61469050e10fada8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8bfd1befa0629e26a2b0f5ca7da8be') in 0.023004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass46.png
+  artifactKey: Guid(dfd48ba79b69463478947e941b632c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass46.png using Guid(dfd48ba79b69463478947e941b632c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35cbaa6c71d80897ab244345a39826e') in 0.009441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.344115 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass52.png
+  artifactKey: Guid(aa60e557be963574da68fc559a4b6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass52.png using Guid(aa60e557be963574da68fc559a4b6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6b5c15549994aeff7d1a222b0f1115') in 0.012129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass64.png
+  artifactKey: Guid(94b8ab0ff75adcf43b1605b27565273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass64.png using Guid(94b8ab0ff75adcf43b1605b27565273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c971536fdd1ad87198b5a80b9111ab6') in 0.011767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass59.png
+  artifactKey: Guid(e6668c33f2fb9ce4b8e5682c40755486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass59.png using Guid(e6668c33f2fb9ce4b8e5682c40755486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23739ba17a512173ecec9ffc5be873c9') in 0.013210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046286 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass74.png
+  artifactKey: Guid(d86f1c5c521660144aa1a95aaedc478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass74.png using Guid(d86f1c5c521660144aa1a95aaedc478e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cdce1e43659d20c8db7c86b3de7a69') in 0.010680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass88.png
+  artifactKey: Guid(549a5cb6e86f34c4e9f342bf69cdf5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass88.png using Guid(549a5cb6e86f34c4e9f342bf69cdf5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f50c79cb696d686993537e1efb6d983') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass86.png
+  artifactKey: Guid(6254269f3bc2892408f1f3acf2957c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass86.png using Guid(6254269f3bc2892408f1f3acf2957c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f73ebfc7b5c9aa61c4bc13747a888a') in 0.011273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.570474 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass121.png
+  artifactKey: Guid(b691bb4446fe5b94fbfddae6f8bebead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass121.png using Guid(b691bb4446fe5b94fbfddae6f8bebead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7fc28941278361374e421958fd7eec') in 0.015324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass181.png
+  artifactKey: Guid(2fb43ed701f800246949d90a4b44db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass181.png using Guid(2fb43ed701f800246949d90a4b44db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb75d4257efeb4c78a3ddbc605431d') in 0.016115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass184.png
+  artifactKey: Guid(d36d664653f0d9e4cb1caf0cd5755d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass184.png using Guid(d36d664653f0d9e4cb1caf0cd5755d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4d9ce5e0296a9600e9dbe02a22ccb1') in 0.011061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass180.png
+  artifactKey: Guid(c96dad5fc338d9e4ba17ed66100d839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass180.png using Guid(c96dad5fc338d9e4ba17ed66100d839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a87e50f9ed0f8ae1e6dcb9a2e6e0be9') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass200.png
+  artifactKey: Guid(14fcfdfd6001ef241a0450ab06d04ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass200.png using Guid(14fcfdfd6001ef241a0450ab06d04ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee2338aa7e85d70c8ff0dab697b6bb') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass176.png
+  artifactKey: Guid(fbb1dd7d040862549a281980e3ac533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass176.png using Guid(fbb1dd7d040862549a281980e3ac533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81926e19612f5e6a0ad1fc71e8f1191d') in 0.011802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass127.png
+  artifactKey: Guid(80d09dbfbe844564d92ec253364cfcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass127.png using Guid(80d09dbfbe844564d92ec253364cfcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57b0ee25611be3931031671e5471204') in 0.011763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass196.png
+  artifactKey: Guid(135bbe01a6f3f8a4d9e94fb80938e11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass196.png using Guid(135bbe01a6f3f8a4d9e94fb80938e11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd67214e487bf682afa1927d8dc6f8d') in 0.010348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass146.png
+  artifactKey: Guid(cf362a65c90b3dd4ca15821842ce1a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass146.png using Guid(cf362a65c90b3dd4ca15821842ce1a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919887960e43cb59f3eb76f902245aeb') in 0.013071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass128.png
+  artifactKey: Guid(4d7213fec4dba2c49af5a6495eb3b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass128.png using Guid(4d7213fec4dba2c49af5a6495eb3b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253d060f2e8cab991d8639f34a3ed80e') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass198.png
+  artifactKey: Guid(4049bec26fab3c94b933087263321e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass198.png using Guid(4049bec26fab3c94b933087263321e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea3d1bad119d9f994f0664674cf2544') in 0.012083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass210.png
+  artifactKey: Guid(b67fd8640d2294240aa4d330f93cec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass210.png using Guid(b67fd8640d2294240aa4d330f93cec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc64c0cdba9e3594b7629ed45dbc4b') in 0.012759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass164.png
+  artifactKey: Guid(c6a003f4c81af3c4cba7c86b8126f1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass164.png using Guid(c6a003f4c81af3c4cba7c86b8126f1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fbc5ebaaf6a96dfab7aee1c4914156') in 0.011588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass201.png
+  artifactKey: Guid(0e5838e17f3c94641890dc29d6a2e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass201.png using Guid(0e5838e17f3c94641890dc29d6a2e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719e19e8be77eec4733edcf67f28707a') in 0.011662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass157.png
+  artifactKey: Guid(8c9f6a63308126f428aef504bc095992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass157.png using Guid(8c9f6a63308126f428aef504bc095992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad177ccfe956c452feb0493bef5a2def') in 0.011625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.813379 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass99.png
+  artifactKey: Guid(f1b4c2616b3591342b9b8f19026350a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass99.png using Guid(f1b4c2616b3591342b9b8f19026350a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d7f6d7e46fbfed50c4777492c87473') in 0.012995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass105.png
+  artifactKey: Guid(b22317e2aca2cc345b4a03494f313495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass105.png using Guid(b22317e2aca2cc345b4a03494f313495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26940eadd6be87e855249123dd7c8f9e') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass109.png
+  artifactKey: Guid(59c77f5f55178dc48a29e104bd20cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass109.png using Guid(59c77f5f55178dc48a29e104bd20cc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f553fff085f803259522efc8c9cbaef') in 0.012488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass108.png
+  artifactKey: Guid(4b4169266b90371458eaddfd38b4377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/Sprites/Concrete/ConcreteWithGrass108.png using Guid(4b4169266b90371458eaddfd38b4377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613bd19ce14c456808a2c03d027882c0') in 0.012014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.855032 seconds.
+  path: Assets/Assets/PixelTilesForSideScroller/TileAssets/Concrete/ConcreteWithGrass28.asset
+  artifactKey: Guid(bf932b7bba6d64748a97fb19157ccbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PixelTilesForSideScroller/TileAssets/Concrete/ConcreteWithGrass28.asset using Guid(bf932b7bba6d64748a97fb19157ccbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c022d11dd1d61a294c0457f0cfbdb351') in 0.103195 seconds 
